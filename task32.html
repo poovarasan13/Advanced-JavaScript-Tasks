@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="text" id="text">click button to change the content</div>
+    <button onclick="change()">Click Me</button>
+    <script>
+    const change=()=>{
+        document.getElementById("text").innerHTML="Content Changer After clicking the button"
+        }
+    </script>
+</body>
+</html>

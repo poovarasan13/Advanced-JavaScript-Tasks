@@ -1,6 +1,6 @@
 function data()
 {
-    return fetch('https://dummyjson.com/products')
+    return fetch('https://dummyjson.com/quotes')
     .then((response)=>{
         if(!response.ok)
         {
